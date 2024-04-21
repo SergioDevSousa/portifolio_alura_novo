@@ -1,0 +1,296 @@
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0 !important;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+:root{
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+    --cor-de-botao-secundario-hover-mobile: #2A7AE4;
+    --cor-de-botao-secundario-hover-desktop: #D4E4FA;
+    --cor-de-botao-primario-hover-mobile: #5595E9;
+    --cor-branca: #FFFFFF;
+    --cor-fonte: #464646;
+    --cor-destaque: #EAF2FD;
+ }
+/* MENU PRONTO */
+section.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+}
+
+section header {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+section header img {
+    box-shadow: none;
+    margin-right: 16px;
+}
+
+header.cabecalho img {
+    height: 24px;
+    width: 24px;
+}
+
+.menu-navegacao ul {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10px;
+    gap: 32px;
+}
+
+.menu__list__item__contato {
+    display: none;
+}
+
+/*Sessão Title PRONTO*/
+section.title {
+    /* background-color: aqua; */
+    margin: 30px 150px 30px 150px;
+}
+
+section.title .title__div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 0px, 0px, 20px, 0px;
+}
+
+.title__profile {
+    width: 368px;
+    height: 368px;
+}
+
+.title__container .title__bio {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title__bio {
+    padding: 10px 0px;
+    gap: 10px;
+    font-size: 52px;
+    line-height: 61.05px;
+    font-weight: 700;
+
+}
+
+.title__subsection {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25.83px;
+}
+
+.title__network {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/*Sessão About PRONTO*/
+
+section.about {
+    background-color: var(--cor-destaque)
+}
+
+.about__container {
+    margin: 0 150px;
+    padding: 64px 385px 64px 0px;
+    gap: 10px;
+    line-height: 22px;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+/* SKILLS PRONTO */
+section.skills {
+    padding: 8px;
+    border: 25px;
+}
+
+.skills__title {
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.skills__line {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+
+.skills__box {
+    display: flex;
+    align-items: flex-end;
+    background-color: var(--cor-branca);
+    width: 176px;
+    height: 174px;
+    border-radius: 8px;
+    gap: 16px;
+}
+
+.skills_box .skills__img img {
+    width: 24px;
+    height: 37px;
+}
+
+/*Sessão Hobbies PRONTO*/
+
+section.hobbies {
+    padding: 8px;
+    border: 25px;
+}
+
+.hobbies__title {
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies__line {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+
+.hobbies__box {
+    display: flex;
+    align-items: flex-end;
+    background-color: var(--cor-branca);
+    width: 176px;
+    height: 174px;
+    border-radius: 8px;
+    gap: 16px;
+}
+
+.hobbies_box .skills__img img {
+    width: 24px;
+    height: 37px;
+}
+
+/* Experiência Acadêmica PRONTO*/
+
+section.academic {
+    background-color: var(--cor-destaque);
+    width: 1440px;
+    height: 581px;
+}
+
+.academic__title {
+    background-color: #2A7AE4;
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.academic__courses {
+    background-color: #464646;
+    display: flex;
+    justify-content: center;
+    margin: 0px 150px;
+    gap: 10px;
+}
+
+.academic__courses__box{
+    background-color: var(--cor-branca);
+    width: 368px;
+    height: 286px;
+}
+
+.academic__courses__list{
+    background-color: aqua;
+    padding: 0;
+}
+.academic__courses__list li{
+    background-color: blueviolet;
+}
+
+
+/* experiência*/
+
+section.experience {
+    background-color: blue;
+
+}
+
+/*Contato*/
+
+section.formcontato {
+    background-color: aqua;
+
+}
+
+/*footeer*/
+
+section.footer {
+    background-color: chocolate;
+
+}
+
+/* Chegou a hora de se desafiar com a responsividade, 
+utilize como referência os breakpoints @media abaixo*/
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+    /* Menu */
+
+    /*title*/
+
+    /*Skills*/
+
+    /*Hobbies*/
+
+    /*Experiências acadêmicas*/
+
+    /*Expeirência profissional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+    /*Menu*/
+
+    /*Titulo*/
+
+    /*Sessão sobre*/
+
+    /*Skills*/
+
+    /*Hobbies*/
+
+    /*Formação Acadêmica*/
+
+    /*Experiência Profissional*/
+
+    /*Contato*/
+
+    /*Footer*/
+
+}
