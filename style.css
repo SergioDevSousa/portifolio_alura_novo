@@ -29,13 +29,13 @@ section.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 150px;
 }
 
 section header {
     display: flex;
     align-items: center;
     font-weight: 700;
+    margin: 0px 150px;
 }
 
 section header img {
@@ -44,24 +44,25 @@ section header img {
 }
 
 header.cabecalho img {
-    height: 24px;
     width: 24px;
+    height: 24px;
 }
 
 .menu-navegacao ul {
     display: flex;
     justify-content: space-around;
     padding-right: 10px;
+    margin-right: 150px;
     gap: 32px;
 }
 
 .menu__list__item__contato {
+    padding: 0px, 0px, 10px, 10px;
     display: none;
 }
 
 /*Sessão Title PRONTO*/
 section.title {
-    /* background-color: aqua; */
     margin: 30px 150px 30px 150px;
 }
 
@@ -69,18 +70,19 @@ section.title .title__div {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    margin: 0px, 0px, 20px, 0px;
+    
 }
 
-.title__profile {
-    width: 368px;
-    height: 368px;
+.title__profile{
+    height: 50vh;
+    width: 60vw;
+    border-radius: 50%;
+    flex-grow: 1;
 }
 
 .title__container .title__bio {
     display: flex;
     flex-direction: column;
-
 }
 
 .title__bio {
@@ -107,6 +109,7 @@ section.title .title__div {
 /*Sessão About PRONTO*/
 
 section.about {
+    width: 100%;
     background-color: var(--cor-destaque)
 }
 
@@ -124,6 +127,7 @@ section.about {
 
 /* SKILLS PRONTO */
 section.skills {
+    width: 100%;
     padding: 8px;
     border: 25px;
 }
@@ -145,20 +149,17 @@ section.skills {
     display: flex;
     align-items: flex-end;
     background-color: var(--cor-branca);
-    width: 176px;
-    height: 174px;
+    width: 11vw;
+    height: 20vh;
     border-radius: 8px;
     gap: 16px;
 }
 
-.skills_box .skills__img img {
-    width: 24px;
-    height: 37px;
-}
 
 /*Sessão Hobbies PRONTO*/
 
 section.hobbies {
+    width: 100%;
     padding: 8px;
     border: 25px;
 }
@@ -180,83 +181,197 @@ section.hobbies {
     display: flex;
     align-items: flex-end;
     background-color: var(--cor-branca);
-    width: 176px;
-    height: 174px;
+    width: 11vw;
+    height: 20vh;
     border-radius: 8px;
     gap: 16px;
 }
 
-.hobbies_box .skills__img img {
-    width: 24px;
-    height: 37px;
-}
 
 /* Experiência Acadêmica PRONTO*/
 
-section.academic {
+section.academic{
     background-color: var(--cor-destaque);
-    width: 1440px;
+    width: 100%;
     height: 581px;
-}
 
+}
 .academic__title {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
     font-size: 32px;
     font-weight: 700;
+}
+.academic__courses{
     display: flex;
-    justify-content: space-evenly;
-    margin: 30px 0 0 0;
+    justify-content: space-evenly;  
+}
+.academic__courses__box{
+    background-color: var(--cor-branca);
+    width: 20vw;
+    height: 30vh;
+    border-radius: 10px;
+}
+.academic__courses__list{
+    display: flex;
+    flex-direction: column;
+
+}
+.academic__courses__item__title{
+    font-weight: 700;
+    font-size: 22px;
+    
+
+}
+.academic__courses__item__subtitle{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/*
+
+.academic__courses__list{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    padding: 10px;
 }
 .academic__courses__item__img{
     background-color: white;
-    padding: 78px 89px;
+    width: 20vw;
+    height: 30vh;
+    border-radius: 1em;
+    
+}
+.academic__courses__item__img img{
+    width: 192px;
+    height: 130px;
 }
 .academic__courses {
     display: flex;
     justify-content: center;
-    margin: 0px 150px;
     gap: 10px;
-}
-
-.academic__courses__box{
-
-    width: 368px;
-    height: 286px;
-}
-
-.academic__courses__list{
-    padding: 0;
-}
-/* .academic__courses__list li{
-    
 } */
 
-
-/* experiência*/
+/* experiência PRONTO*/
 
 section.experience {
-    background-color: blue;
-
+    width: 100%;
 }
 
+.experience__section__title{
+    text-align: center;
+    padding-block: 32px;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.experiencie__box{
+    display: flex;
+    margin: 0px 150px;
+    padding-bottom: 50px;
+    gap: 20px;
+}
+
+.experiencie__box:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+.experience__img{
+    width: 45vw;
+    height: 45vh;
+}
+.experience__info{
+    align-self: center;
+}
+button{
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+}
+.experiencia__botao--repo{
+    color: var(--cor-de-botao-secundario-hover-mobile);
+    border: 1px solid var(--cor-de-botao-secundario-hover-mobile);
+}
+.experiencia__botao--repo:hover {
+    cursor: pointer;
+    background-color: var(--cor-de-botao-secundario-hover-desktop);
+}
+.experiencia__botao--demo{
+    color: var(--cor-branca);
+    background-color: var(--cor-de-botao-secundario-hover-mobile);
+}
+
+.experiencia__botao--demo:hover {
+    cursor: pointer;
+    background-color: var(--cor-de-botao-primario-hover-mobile);
+}
 /*Contato*/
 
 section.formcontato {
-    background-color: aqua;
-
+    background-color: var(--cor-destaque);
+    width: 100%;
+}
+.formcontato__contato{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 150px;
+    gap: 20px;
+}
+.formcontato__img{
+    width: 25vw;
+    height: 60vh;
+}
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+}
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+}
+.formcontato__input{
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.formcontato__textarea{
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.formcontato__botao {
+    width: 165px;
+    height: 51px;
+    padding: 16px;
+    background-color: var(--cor-de-botao-secundario-hover-mobile);
+    color: var(--cor-branca);
+    border-radius: 5px;
 }
 
-/*footeer*/
+.formcontato__botao:hover {
+    cursor: pointer;
+    background-color: var(--cor-de-botao-primario-hover-mobile);
+}
+
+
+
+/*footeer PRONTO*/
 
 section.footer {
-    background-color: chocolate;
+    width: 100%;
+    /* margin: 0px 150px; */
 
+}
+.footer__rodape{
+    display: flex;
+    justify-content: center;
 }
 
 /* Chegou a hora de se desafiar com a responsividade, 
 utilize como referência os breakpoints @media abaixo*/
 
 /*Tablet*/
-@media (min-width: 768px) {
+/* @media (min-width: 768px) { */
 
     /* Menu */
 
@@ -270,10 +385,10 @@ utilize como referência os breakpoints @media abaixo*/
 
     /*Expeirência profissional*/
 
-}
+
 
 /*Mobile*/
-@media (min-width: 425px) {
+/* @media (min-width: 425px) { */
 
     /*Menu*/
 
@@ -293,4 +408,3 @@ utilize como referência os breakpoints @media abaixo*/
 
     /*Footer*/
 
-}
