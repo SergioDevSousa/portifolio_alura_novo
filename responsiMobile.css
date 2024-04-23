@@ -55,6 +55,8 @@
         margin-top: 10px;
     }
     .title__container{
+        width: 328px;
+        height: 148px;
         margin: 0;
     }
     .title__bio{
@@ -63,7 +65,7 @@
         align-items: flex-start;
         padding: 0;
     }
-    /* ABOUT */
+    /* ABOUT PRONTO*/
     .about__container{
         text-align: justify;
         margin-top: 16px;
@@ -76,4 +78,5 @@
         line-height: 25.83px;
         margin: 16px 0px;
     }
+
 }
