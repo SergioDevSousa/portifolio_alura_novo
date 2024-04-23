@@ -84,7 +84,7 @@ section.title {
 .title__bio {
     padding: 10px 0px;
     gap: 10px;
-    font-size: 52px;
+    font-size: 3.25em;
     line-height: 61.05px;
     font-weight: 700;
 
@@ -93,7 +93,7 @@ section.title {
 .title__subsection {
     margin-top: 30px;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.375em;
     line-height: 25.83px;
 }
 
@@ -120,7 +120,7 @@ section.about {
 
 .about__title {
     font-weight: 700;
-    font-size: 32px;
+    font-size: 2em;
 }
 
 /* SKILLS PRONTO */
@@ -131,7 +131,7 @@ section.skills {
 }
 
 .skills__title {
-    font-size: 32px;
+    font-size: 2em;
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -166,7 +166,7 @@ section.hobbies {
 }
 
 .hobbies__title {
-    font-size: 32px;
+    font-size: 2em;
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -196,43 +196,39 @@ section.hobbies {
 section.academic{
     background-color: var(--cor-destaque);
     width: 100%;
-    height: 581px;
+    /* height: 581px; */
 
 }
 .academic__title {
     display: flex;
     justify-content: center;
     padding: 30px;
-    font-size: 32px;
+    font-size: 2em;
     font-weight: 700;
 }
 .academic__courses{
     display: flex;
-    justify-content: space-evenly;  
-}
-.academic__courses__box{
-    background-color: var(--cor-branca);
-    width: 20%;
-    border-radius: 10px;
+    justify-content: space-evenly;
 }
 .academic__courses__box img{
+    background-color: var(--cor-branca);
+    align-items: center;
     width: 100%;
+    border-radius: 10px;
+    padding: 20px;
 }
 .academic__courses__list{
     display: flex;
     flex-direction: column;
-    margin-top: 35px;
-    align-items: center;
+    align-items: flex-start;
+    margin: 30px 0px;
 }
-
 .academic__courses__item__title{
-    margin-top: 70px;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.375em;
 }
 .academic__courses__item__subtitle{
-    margin-top: 10px;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 500;
 }
 
@@ -245,7 +241,7 @@ section.experience {
 .experience__section__title{
     text-align: center;
     padding-block: 32px;
-    font-size: 32px;
+    font-size: 2em;
     font-weight: 700;
 
 }
