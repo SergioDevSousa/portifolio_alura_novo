@@ -29,32 +29,43 @@
     /* TITLE */
     section.title{
         width: 100%;
+        margin: 16px;
     }
     .title__div{
-        display: block;
+        display: flex;
+        flex-direction: column;
         margin: 0;
-        align-self: flex-start;
     }
     .title__div .title__profile{
         width: 34%;
         height: 34%;
     }
     .title__subsection{
+        text-align: justify;
         font-size: 14px;
         font-weight: 400px;
         line-height: 16.44px;
         margin: 0;
     }
+    .title__network{
+        margin-top: 16px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16.44px;
+        margin-top: 10px;
+    }
     .title__container{
-        display: block;
+        margin: 0;
     }
     .title__bio{
         font-size: 22px;
         line-height: 1.5;
         align-items: flex-start;
+        padding: 0;
     }
     /* ABOUT */
     .about__container{
+        text-align: justify;
         margin-top: 16px;
         margin: 16px;
         padding: 0;
@@ -65,24 +76,4 @@
         line-height: 25.83px;
         margin: 16px 0px;
     }
-
-
-        /* width: 100%;
-        display: flex;
-        justify-content: space-between;
-    
-    }
-    .cabecalho.menu__title{
-        width: 360px;
-        height: 56px;
-        display: flex;
-        align-content: flex-start;
-        margin: 0px 16px 0px 16px;
-
-    }
-    .menu__list{
-        display: none;
-    } */
-     
-
 }
