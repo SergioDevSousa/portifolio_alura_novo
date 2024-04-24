@@ -247,25 +247,27 @@ section.experience {
 }
 .experiencie__box{
     display: flex;
-    margin: 0px 150px;
-    padding-bottom: 50px;
-    gap: 20px;
+    gap: 16px;
 }
 
 .experiencie__box:nth-child(odd) {
     flex-direction: row-reverse;
 }
 .experience__img{
+    margin: 0px 20px;
+    padding-top: 20px;
     width: 50%;
-    /* width: 45vw;
-    height: 45vh; */
+    
 }
 .experience__info{
+    width: 368px;
+    height: 112px;
+    gap: 8px;
     align-self: center;
 }
 button{
     border: none;
-    padding: 16px;
+    padding: 10px;
     cursor: pointer;
 }
 .experiencia__botao--repo{
