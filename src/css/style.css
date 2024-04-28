@@ -103,6 +103,12 @@ section.title {
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.title__network__item:hover{
+    transition: 200ms linear;
+    transform: scale(1.1);
 }
 
 /*Sessão About PRONTO*/
@@ -272,6 +278,10 @@ section.experience {
     padding-top: 20px;
     width: 50%;
     
+}
+.experience__img:hover{
+    transition: 500ms linear;
+    transform: scale(1.1);
 }
 .experience__info{
     width: 368px;
