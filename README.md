@@ -2,7 +2,7 @@
 ---
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/168887837-b6d26532-6782-48dc-92eb-e48bf6c57a15.png">
+     <img width="600" heigth="600" src="https://sergiodevsousa.github.io/portifolio_alura_novo/">
 </p>
 
 ###  Primeiros Passos:
@@ -18,9 +18,10 @@
 #### 🔹style.css: Documento de CSS com instruções de estilo e também algumas sugestões para seu desenvolvimento
 #### 🔹validacao.js: Documento vazio para que possa aplicar sua lógica de programação, trabalhando com a validação de formulário em JavaScript
 #### Ao clonar, ou realizar o download do projeto base, você tera essa apresentação:
+#### Separamos as pastas e utilizamos a boa prática pra melhor apresentação do conteúdo.
 
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/168888313-d031e9e1-1449-4b73-bd3c-3102223097f3.png">
+     <img width="600" heigth="600" src="https://sergiodevsousa.github.io/portifolio_alura_novo/">
 </p>
 
