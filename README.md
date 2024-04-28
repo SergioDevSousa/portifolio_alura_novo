@@ -2,7 +2,7 @@
 ---
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://sergiodevsousa.github.io/portifolio_alura_novo/">
+     <img width="600" heigth="600" src="./assets/img-projeto.png">
 </p>
 
 ###  Primeiros Passos:
@@ -22,6 +22,6 @@
 
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://sergiodevsousa.github.io/portifolio_alura_novo/">
+     <img width="600" heigth="600" src="./assets/img-projeto.png">
 </p>
 
